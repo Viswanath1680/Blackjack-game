@@ -54,4 +54,8 @@ function newCard() {
         cards.push(card)
         renderGame()        
     }
+    else{
+        var message = "Oops! You can't draw any more cards..";
+        messageEl.textContent = message;
+    }   
 }
